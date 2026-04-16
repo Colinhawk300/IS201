@@ -1,0 +1,71 @@
+/* myStyles.css - custom styles created from scratch */
+
+/* Page base */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #f5f7fb;
+    color: #1f2937; 
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; 
+    line-height: 1.5;
+}
+
+
+.nav {
+    background: linear-gradient(90deg,#0b4f6c,#0d6b87);
+    color: #ffffff;
+    padding: 14px 20px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.nav a { color: #e6f7ff; text-decoration: none; }
+
+
+.header {
+    padding: 40px 20px;
+    background: #ffffff;
+    border-bottom: 1px solid #e6e9ef;
+}
+.header h1 { margin: 0 0 8px 0; color: #0b3342; }
+
+
+.content {
+    max-width: 900px;
+    margin: 28px auto;
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 6px;
+    box-shadow: 0 6px 18px rgba(15,23,42,0.06);
+}
+
+
+.video {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 18px;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+
+.graph {
+    max-width: 900px;
+    margin: 20px auto 60px auto;
+    padding: 18px;
+    background: #ffffff;
+    border-radius: 6px;
+}
+
+
+.footer { text-align: center; padding: 18px 0; color: #6b7280; }
+
+
+.muted { color: #6b7280; }
+
+
+.video iframe, .graph iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
